@@ -165,6 +165,24 @@
 .history-text span{
     color: #F45D01;
 } 
+.history-text label{
+    color: #F45D01;
+    text-decoration: underline;
+}
+.history-read-more,#about-check{
+    display: none;
+}
+#about-check:checked ~ .history-read-more{
+    display: block;
+}
+#about-check:checked ~ label{
+    visibility: hidden;
+}
+#about-check:checked ~ label::after{
+    content: 'Read Less';
+    display: block;
+    visibility:visible;
+}
 .our-main{
     display: flex; 
     justify-content: space-between; 
