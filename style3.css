@@ -257,6 +257,10 @@
 .support button:active{
     border: 2px solid #000;
 }
+.support button:hover{
+    background-color: #F45D01;
+    color:white;
+}
 .leadership{
     background-color: #f9f9f9;
 }
