@@ -1021,6 +1021,7 @@ font-size: 40px;
 .News_container h2{
     color:#F45D01;
     font-size: 30px;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .News_container p{
